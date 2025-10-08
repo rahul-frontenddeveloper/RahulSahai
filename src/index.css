@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Premium Dark Portfolio Theme */
+    --background: 220 15% 5%;
+    --foreground: 0 0% 100%;
+
+    --card: 220 15% 8%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 220 15% 8%;
+    --popover-foreground: 0 0% 100%;
+
+    /* Electric Blue Primary */
+    --primary: 211 84% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    /* AI Gradient Colors */
+    --accent-purple: 261 51% 60%;
+    --accent-blue: 244 63% 69%;
+
+    --secondary: 220 15% 15%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 220 15% 20%;
+    --muted-foreground: 220 9% 55%;
+
+    --accent: 211 84% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 15% 15%;
+    --input: 220 15% 15%;
+    --ring: 211 84% 60%;
+
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-ai: linear-gradient(135deg, hsl(var(--accent-purple)), hsl(var(--accent-blue)));
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent-blue)) 100%);
+    --glow-primary: 0 0 40px hsl(var(--primary) / 0.3);
+    --glow-accent: 0 0 60px hsl(var(--accent-purple) / 0.4);
+    
+    /* Transitions */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-ai);
+  }
+  
+  .glow-text {
+    text-shadow: 0 0 20px hsl(var(--primary) / 0.5);
+  }
+  
+  .card-hover {
+    transition: var(--transition-smooth);
+    @apply hover:scale-[1.02] hover:shadow-2xl;
+  }
+  
+  .magnetic-hover {
+    transition: var(--transition-bounce);
+    @apply hover:scale-105;
+  }
+}
+
+@layer base {
+  @keyframes scan {
+    0% { top: 0%; }
+    100% { top: 100%; }
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
