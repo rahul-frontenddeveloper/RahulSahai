@@ -25,7 +25,17 @@ const Projects = () => {
       tags: ["Education", "Consultacy", "Wordpress Website"]
 
     },
-    {
+   
+
+     {
+      title: "Nepal Swasth Healthcare",
+      category: "Web Design",
+      description: "Nepal Swasth is a Biggest healthcare service provider based in Nepal",
+      image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhI6xJ7wc8aHiEj9FYKGLMGNMyFNAt382Eaf5H2_n_QMjbVYLlH6FtnMRqiUsQ3wrrHeXy1Ud-m04428ALEXj7-fF3FUPB9gAICB9_IDTBAt4Gm9Wc9CxDvv4u2r8_u7XOI6e50tze28nr8cXdvhcbt7o5ZuHZcnsGKduRUioHRIi9gq63FYxZQwfGp_PY/s1364/Screenshot%202025-11-10%20104200.png",
+      link: "https://nepalswasth.com/",
+      tags: ["Professional Website", "Informative Website", "Local SEO"]
+    },
+     {
       title: "Central Delaware SLP",
       category: "Web Design",
       description: "Professional service website for speech-language pathology practice",
@@ -74,11 +84,69 @@ const Projects = () => {
       link: "#",
       tags: ["n8n", "Integration", "Automation"]
     },
+
+    
      {
       title: "Lead Generation Automation",
       category: "Automation",
       description: "n8n-powered automation system for enterprise workflows",
       image: "https://media.licdn.com/dms/image/v2/D5622AQE63lBU3w3ZXg/feedshare-shrink_2048_1536/B56ZiEonhcHUAs-/0/1754571897995?e=1762992000&v=beta&t=L0AjhfpGlEVBeLdE6lZ7K4-Q1RgcV3ujEYYtOFFP-5c",
+      tags: ["n8n", "Integration", "Automation"]
+    },
+
+     {
+      title: "Rag System Automation",
+      category: "Automation",
+      description: "Imagine chatting with your own files — and getting smart answers back.",
+      image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisYQfw5vdIDhGiAfD3Fp_aWVC3Ti5fkMAkjonhr02LjXxDC-5KKIhfcHIYztc0lUm2na8QxQE_ovLbnhCrR5cjP5T5YGM6Cn9H01VpYcsrVhoRgaVDiFA9i0mmdobNswwID7Ie3cy3Uv9cjqjOODC8litzyep-gY_dkXKAKKmcFbp0ouQLFG1JQ-XhW_8/s844/Screenshot%202025-11-10%20104956.png",
+      tags: ["n8n", "Integration", "Automation"]
+    },
+
+       {
+      title: "Customer Support Automation",
+      category: "Automation",
+      description: "Built an AI-Powered Customer Support Agent using n8n + Google Gemini + Pinecone",
+      image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjn6Qv-ACFiVu0XvaJMJntUt6gvRTagWywaOMp3SWR_9UmX_GpFMUXm5aktdMOR1jWFk4uFHo7MM2HC6k_AT8yU056pUdX8cKBYxn_vz2W6AJhYe_8bnOOtPy3SpzGOX0Z2LRNAj5lioBsXWY-gKsZRh2LVPvjW9hyFY5UIz5PT454CnLldMqmZ6psIMo0/s1054/Screenshot%202025-11-10%20105443.png",
+      tags: ["n8n", "Integration", "Automation"]
+    },
+
+     {
+      title: "LinkedIn Automation Bot",
+      category: "Automation",
+      description: "I recently built an AI workflow that automatically creates LinkedIn posts — from topic to final draft",
+      image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipL17Y-gmCkTR4KJhmx5XjsWc6osxX6Dde-LMdXP0z6OmkEhbApgTncrKfYrPEULU8JWtLi53VYjV6k6a-TcY6ZcS3HhCZwYkAyoMLS45LJHpfXG3Z4u5DfgwKsb4zEV3fWOO3HMFXN_lSn3R5zkWRTLC_Eos4E2GA0wPjs-eBsm3esJqIqY5SgmtQnYo/s1195/Screenshot%202025-11-10%20110918.png",
+      tags: ["n8n", "Integration", "Automation"]
+    },
+
+     {
+      title: "Bill extraction Agent",
+      category: "Automation",
+      description: "I recently built an AI agent that automatically extracts invoice details from PDFs — like the invoice number, client info, total amount, and due date — and instantly notifies the billing team.",
+      image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQu-u-XtaYYtCYl7Ctv4Br2jTu2AKGnVrcX6KcKkJdMt-Ex0WE8unMQkv2uCJbhacZQn3BlZqlmuS7nJXgWrkycInwszZw1Z1kdP4uiM3dFcLXEeo3E48MG1TaMA1OHslBT_4wAXAd1bgQs2vbY7GF7HBIHXlt6YX5zAOP6oVu8IFS8kzfDURWpYvm-do/s928/Screenshot%202025-11-10%20111458.png",
+      tags: ["n8n", "Integration", "Automation"]
+    },
+
+      {
+      title: "RAG CHATBOT FOR BUSINESS OPERATIONS",
+      category: "Automation",
+      description: "How I made my AI remember every single detail.",
+      image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjKEJDYbQpWHBAXQ9KN4V9CFHGKlKrN-0dplFYxCHGW0eeZbYZoKwSLCLfLOPNqTNvmGJSmlNmkL3GOiq8YDFCePVVJnT43HNRdx7tP1pOZbgFJKpJh1_CshMUVPYyk3XAu5a_F8_c6zMQJTAl6DC7IMWAAAqmKyp4peOpNkiFuamIywqOGW58vohRaJo/s744/Screenshot%202025-11-10%20111958.png",
+      tags: ["n8n", "Integration", "Automation"]
+    },
+
+      {
+      title: "Blog Content Generation Automation",
+      category: "Automation",
+      description: "Automating Blog Content Creation with AI: From Topic to Published Post",
+      image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQ0Zmbx21X666d8xKYZuReL_zZUWQGDyIAs0UfvlEzwk0RtIkEqqpjaBchGhxriA7_SCrxZP3KXN7WzsdihmSn7VysJJiC4y8dse0QCXyOy58ccr_zs7RqHrr67viMJw4iMq8c5mMklBWWECRBDbIAr9ysu0619qyZtnB8gBo9aikKat2Nw8i-EfJtmP4/s895/Screenshot%202025-11-10%20113413.png",
+      tags: ["n8n", "Integration", "Automation"]
+    },
+
+     {
+      title: "Product video generation Automation",
+      category: "Automation",
+      description: "Automating Product Video Creation with AI: From Text to Engaging Videos",
+      image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5oNCJJLYFVfTAvopiuh92COYcXT6t-o3xlE2nJgqJRiLLQ66WOkJwlvQaJwkb51oNpVHWhyphenhyphenWBlBvhMa1QU2TuCwS4jOBtKV_qEajEvH37JJgL2WoxdKUgwYgEi7aospY_boQVpBADDNL1rBV1KtXvATLB_Vm_bYZaKGsMJXioysraovj_vO35LMeTFEE/s858/Screenshot%202025-11-10%20112616.png",
       tags: ["n8n", "Integration", "Automation"]
     },
 
