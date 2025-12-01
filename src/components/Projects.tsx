@@ -28,46 +28,32 @@ const Projects = () => {
    
 
      {
-      title: "Nepal Swasth Healthcare",
+      title: "Nepal Swasth Food Industry",
       category: "Web Design",
-      description: "Nepal Swasth is a Biggest healthcare service provider based in Nepal",
+      description: "Nepal Swasth is a leading food industry in Nepal, committed to providing healthy and nutritious food products ",
       image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhI6xJ7wc8aHiEj9FYKGLMGNMyFNAt382Eaf5H2_n_QMjbVYLlH6FtnMRqiUsQ3wrrHeXy1Ud-m04428ALEXj7-fF3FUPB9gAICB9_IDTBAt4Gm9Wc9CxDvv4u2r8_u7XOI6e50tze28nr8cXdvhcbt7o5ZuHZcnsGKduRUioHRIi9gq63FYxZQwfGp_PY/s1364/Screenshot%202025-11-10%20104200.png",
       link: "https://nepalswasth.com/",
       tags: ["Professional Website", "Informative Website", "Local SEO"]
     },
      {
-      title: "Central Delaware SLP",
+      title: "Smart Skin AI",
       category: "Web Design",
-      description: "Professional service website for speech-language pathology practice",
-      image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwSl5DZqTM3tqnZyUqgKQN8IXuoypH8DN3ZssWlfrOX-ETaeKrHLejsiftAKcWvawQSbaZt8XRJ4iPsqNVC1jRUHN66SGj_AAcUXq9r4wC7Mfk-cWnHIGByW-W289-LYVr6We0M5zLu29V4R_2GXsXRKIqvNyyF4hLoMHK126lZomX9ElwIYuXpp_-c7c/s320/c-2.png",
-      link: "https://centraldelawareslp.com/",
-      tags: ["Professional Website", "Booking System", "Local SEO"]
+      description: "Smart Skin AI is a platform that helps you to improve your skin health and beauty",
+      image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJMGoEjRT5F1ViMLaUdFE7qUEtzKS8qLYW768J3Oofyqa6hbpL_jfRPdoieVfsY1XCIF2ayBr_GIxMshpOoKiD0dlcGpW5RczyKOa-x1CVtM6XJiIt9xk-_NcxItKHwMZFfo7Jsxy54i7-SI74EPOGhXF9gCyMQAg7yaNCVwkF5aJ3vN2NXZwWCJ1zS0w/s320/Screenshot%202025-12-01%20153326.png",
+      link: "https://face-scan-rho.vercel.app/",
+      tags: ["Professional Website", "Face Scan", "Local SEO"]
     },
     {
-      title: "Eshelman's Lawn Care",
+      title: "Shiv Shakti Gym Club",
 
       category: "Web Design",
-      description: "Eshelman's Home and Lawn Services is a locally owned and operated in De Kalb Junction, NY",
-      image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9ttDEHl5a41M9t7NOv66itWjaxvkhM5PrDQIZGBqzlsp1qGboiCbx-1CxR6UAwyj3Lp4KDka1WC8QiEwoIxnwfiLlOmXLeY5wwRLEXlrNEfGVf7yzyCFLfvo7P3posGORpMltB_O97eGIatHcrh3qvlepFnYn8BtaTlGCaPSNRBp-dGRn3fmxOvCMv9I/s320/Screenshot%202025-10-08%20152514.png",
-      link: "https://www.eshelmanslawn.com/",
+      description: "Shiv Shakti Gym Club is a gym club in Nepal",
+      image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpd8ZpX-aSTORwIC3cyxMBjg_R2kX3B_cKIx0UiyavC0vH0o-Bfyvm5PYyGQWELNTIW0t-_4i2NUt62Bvq2OM0DsWTuoYKNsqvyvtMarWf7s9d11f4aJfnawEB4X-gsjzOQRR55QjUHKg6rSgLy5Szvu51NS0KnJuqZWT0jDd7f1IRTkNF_X5_4DC1J9I/s320/Screenshot%202025-12-01%20154012.png",
+      link: "https://shivshakti-fit-biratnagar.vercel.app/",
       tags: ["Small Business", "Lead Generation", "Gardening Business", "Wordpress"]
     },
-    {
-      title: "KMAC Professional Site",
-      category: "Web Design",
-      description: "Corporate website with modern design and content management",
-      image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiYF7TlCyoZhP1b6Lbv42A2A9a69rzCvecJ7JJx1h0PIUyHmxH4gEJOkCHIkwlH9jYpAQ1QcuL1tF-MRFrHdea96L1X-WpRU0_daeGZwb5ga7TvmFVGL6_KiEHkzjwWCLKyHAK7MCmVkQf9yCY7bFM91y29yJC1G3XOOOp_MS9Vze2DTCog99nma-vyAQ/s320/Screenshot%202025-10-08%20152711.png",
-      link: "https://kmacca.com/",
-      tags: ["Corporate", "CMS", "Construction", "Real Estate"]
-    },
-    {
-      title: "Better Line Roof Solutions",
-      category: "Web Design",
-      description: "Roofing company website with project galleries and contact forms",
-      image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzFpU1DKpEkQJ8D4VnMl5wjxYPKJSZ4gysfrWww_kMnZcoOngBuUMdnwk8E8GszkamzqICvQKail_o59tRD8y-r-cNPkhM-a0QDmBaJNdzjLXk2flcMWKYyoGcy4fKZakM0mufeueZi__CTaMe8uFIzAYNQha8ezTFcAWVm0fukoZT0nsLg8KjG-3HG-s/s320/Screenshot%202025-10-08%20153135.png",
-      link: "https://betterlineroof.com/",
-      tags: ["Construction", "Portfolio","Roofing"]
-    },
+    
+    
     {
       title: "English Conversation Partner",
       category: "AI Solutions",
@@ -76,23 +62,8 @@ const Projects = () => {
       link: "#",
       tags: ["SaaS", "AI", "LLM","Micorsoft Co-pilot"]
     },
-    {
-      title: "Business Workflow Automation",
-      category: "Automation",
-      description: "n8n-powered automation system for enterprise workflows",
-      image: "https://media.licdn.com/dms/image/v2/D4D22AQEfh-DM1JouRA/feedshare-shrink_2048_1536/B4DZiZyBx4GgAs-/0/1754926686493?e=1762992000&v=beta&t=K5MOEt2PwL8smdXY0B1Tk7I2xuQagnh1oaa2w-_rZGo",
-      link: "#",
-      tags: ["n8n", "Integration", "Automation"]
-    },
 
-    
-     {
-      title: "Lead Generation Automation",
-      category: "Automation",
-      description: "n8n-powered automation system for enterprise workflows",
-      image: "https://media.licdn.com/dms/image/v2/D5622AQE63lBU3w3ZXg/feedshare-shrink_2048_1536/B56ZiEonhcHUAs-/0/1754571897995?e=1762992000&v=beta&t=L0AjhfpGlEVBeLdE6lZ7K4-Q1RgcV3ujEYYtOFFP-5c",
-      tags: ["n8n", "Integration", "Automation"]
-    },
+
 
      {
       title: "Rag System Automation",

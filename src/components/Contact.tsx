@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Mail, Linkedin, Globe, MapPin } from "lucide-react";
+import { Mail, Linkedin, MapPin } from "lucide-react";
 
 const Contact = () => {
   const contactMethods = [
@@ -10,22 +10,10 @@ const Contact = () => {
       link: "mailto:rahulsahanii.com@gmail.com"
     },
     {
-      icon: Mail,
-      label: "Business Email",
-      value: "info@sydneyithub.com",
-      link: "mailto:rahulsahanii.com@gmail.com"
-    },
-    {
       icon: Linkedin,
       label: "LinkedIn",
       value: "linkedin.com/in/rahul-sahanii",
       link: "https://www.linkedin.com/in/rahul-sahanii"
-    },
-    {
-      icon: Globe,
-      label: "Website",
-      value: "sydneyithub.com",
-      link: "https://sydneyithub.sydneyithub.com/"
     }
   ];
 

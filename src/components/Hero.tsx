@@ -53,7 +53,7 @@ const Hero = () => {
           {/* Subtitle Tag */}
           <div className="inline-block">
             <span className="text-muted-foreground text-sm md:text-base font-medium tracking-wider uppercase">
-              [ Product Engineer @ Sydney IT Hub ]
+              [ Helping Business to Scale with AI Automation ]
             </span>
           </div>
 
